@@ -1,0 +1,76 @@
+*{
+ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+ body{
+     background-color: rgb(25, 21, 34);  
+    margin: auto;
+}
+ #wrapper{
+    border: 2px solid wheat;
+    height: 400px;
+    color: rgb(248, 247, 245);
+    display: flex;
+}
+#systems-expert{
+    
+  
+    width: 50%;
+    color: white;
+    background-color: rgb(101, 24, 24);
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 20px;
+    
+}  
+#ml-expert{
+ 
+    width: 30%;
+    background-color: rgb(225, 130, 53);
+    height: 75px;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+#algo-expert{
+    justify-content: center;
+    top: 150px;
+    position: absolute;
+    width: 75%;
+    background-color: rgb(73, 73, 148);
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    left: 200px;
+    
+    
+}
+#frontend-expert{
+    width: 40%;
+    
+    background-color: rgb(76, 131, 112);
+    height: 50px;
+    position: absolute;
+    justify-content: flex-end;
+    top: 40%;
+    text-align: center;
+    padding-top: 15px;
+}
+#programming-expert{
+    height: 75px;
+    margin-right: 150px;
+    background-color: rgb(209, 62, 62);
+    width: 880px;
+    position: absolute;
+    left: 42%;
+    top: 37%;
+    text-align: center;
+    padding-top: 30px;
+    
+    
+}
